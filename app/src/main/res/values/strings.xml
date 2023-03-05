@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Task1</string>
+    <string name="button_name">Ввести</string>
+    <string name="hint_name">Имя</string>
+    <string name="label_name">Привет,</string>
 </resources>
