@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Task4</string>
+    <string name="RelativeLayout">Relative</string>
+    <string name="TableLayout">Table</string>
+    <string name="FrameLayout">Frame</string>
+    <string name="GridLayout">Grid</string>
+    <string name="ScrollView">Scroll</string>
+</resources>
