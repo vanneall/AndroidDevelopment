@@ -4,5 +4,5 @@
     <string name="TableLayout">Table</string>
     <string name="FrameLayout">Frame</string>
     <string name="GridLayout">Grid</string>
-    <string name="ScrollView">Scroll</string>
+    <string name="ScrollView">Some</string>
 </resources>

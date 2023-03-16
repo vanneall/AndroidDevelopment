@@ -53,29 +53,29 @@ public class Linear extends AppCompatActivity {
         switchToFrameLayout.setId(3);
         Button switchToGridLayout = new Button(this);
         switchToGridLayout.setId(4);
-        Button switchToScrollView = new Button(this);
-        switchToScrollView.setId(5);
+        Button switchToSomeLayout = new Button(this);
+        switchToSomeLayout.setId(5);
 
 
         switchToRelativeLayout.setText(getResources().getString(R.string.RelativeLayout));
         switchToTableLayout.setText(getResources().getString(R.string.TableLayout));
         switchToFrameLayout.setText(getResources().getString(R.string.FrameLayout));
         switchToGridLayout.setText(getResources().getString(R.string.GridLayout));
-        switchToScrollView.setText(getResources().getString(R.string.ScrollView));
+        switchToSomeLayout.setText(getResources().getString(R.string.ScrollView));
 
 
         switchToRelativeLayout.setOnClickListener(this::SwitchButton);
         switchToTableLayout.setOnClickListener(this::SwitchButton);
         switchToFrameLayout.setOnClickListener(this::SwitchButton);
         switchToGridLayout.setOnClickListener(this::SwitchButton);
-        switchToScrollView.setOnClickListener(this::SwitchButton);
+        switchToSomeLayout.setOnClickListener(this::SwitchButton);
 
 
         linearLayoutWithButtons.addView(switchToRelativeLayout);
         linearLayoutWithButtons.addView(switchToTableLayout);
         linearLayoutWithButtons.addView(switchToFrameLayout);
         linearLayoutWithButtons.addView(switchToGridLayout);
-        linearLayoutWithButtons.addView(switchToScrollView);
+        linearLayoutWithButtons.addView(switchToSomeLayout);
 
 
         linearLayoutWithButtons.setWeightSum(1);
@@ -83,6 +83,7 @@ public class Linear extends AppCompatActivity {
 
 
         setContentView(linearLayout);
+
     }
 
     public void SwitchButton(View view){
@@ -109,7 +110,9 @@ public class Linear extends AppCompatActivity {
                 break;
             }
             case 5: {
-
+                intent = new Intent("its_my_action");
+                startActivity(intent);
+                break;
             }
         }
     }

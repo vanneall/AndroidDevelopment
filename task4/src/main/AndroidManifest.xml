@@ -8,6 +8,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Task1">
         <activity
+            android:name=".some"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="its_my_action" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
             android:name=".Grid"
             android:exported="false" />
         <activity
