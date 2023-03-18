@@ -8,6 +8,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Task1">
         <activity
+            android:name=".TimePicker"
+            android:exported="false" />
+        <activity
+            android:name=".DatePicker"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
