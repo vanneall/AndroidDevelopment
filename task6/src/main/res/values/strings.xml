@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Task6</string>
+    <string name="hint_gardens">Количество садов</string>
+    <string name="hint_flowers">Количество цветов</string>
+    <string name="apply">принять</string>
+    <string name="result_text">В %1$s всего %2$s</string>
+
+    <plurals name="flowers">
+        <item quantity="one">цветок</item>
+        <item quantity="few">цветка</item>
+        <item quantity="many">цветков</item>
+    </plurals>
+    <plurals name="gardens">
+        <item quantity="one">саду</item>
+        <item quantity="other">садах</item>
+    </plurals>
+
+    <string-array name="type_flowers">
+        <item>Тюльпан</item>
+        <item>роза</item>
+        <item>гвоздика</item>
+        <item>плюмерия</item>
+    </string-array>
+</resources>
