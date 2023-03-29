@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Задание 7</string>
+    <string name="switchToMainActivity2">Перейти</string>
+    <string name="switchToMainActivity3">Забрать</string>
+    <string name="hintFName">Имя</string>
+    <string name="hintLName">Фамилия</string>
+    <string name="hintTName">Отчество</string>
+    <string name="hintAge">Возраст</string>
+
+    <string name="ready_fname">Даниил</string>
+    <string name="ready_sname">Шмаков</string>
+    <string name="ready_tname">Максимович</string>
+    <string name="ready_age">20</string>
+</resources>
