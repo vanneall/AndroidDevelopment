@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Адаптеры</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="coffees">
+        <item>Раф</item>
+        <item>Капучино</item>
+        <item>Эспрессо</item>
+        <item>Латте</item>
+        <item>Мокачино</item>
+    </string-array>
+</resources>
