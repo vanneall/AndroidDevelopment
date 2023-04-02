@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/left_fragment"
+    android:layout_width="wrap_content"
+    android:layout_weight="1"
+    android:layout_height="match_parent"
+    tools:context=".LeftFragment"
+    android:orientation="vertical"
+    android:background="@color/pinky_red">
+
+    <TextView
+        android:textSize="30dp"
+        android:text="Фрагмент №1"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/buttonSub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="-" />
+
+</LinearLayout>

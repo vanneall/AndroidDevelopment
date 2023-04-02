@@ -8,6 +8,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Task1">
         <activity
+            android:name=".ExampleTwo"
+            android:exported="false" />
+        <activity
+            android:screenOrientation="landscape"
+            android:name=".ExampleOne"
+            android:exported="false" />
+        <activity
+            android:screenOrientation="portrait"
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

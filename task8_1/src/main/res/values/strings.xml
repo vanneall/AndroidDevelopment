@@ -1,5 +1,10 @@
 <resources>
-    <string name="app_name">task8_1</string>
+    <string name="app_name">Фрагменты</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="tasks">
+        <item>Взаимодействие между фрагментами</item>
+        <item>Портретная и альбомная ориентация</item>
+    </string-array>
 </resources>
