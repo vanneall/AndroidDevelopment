@@ -4,14 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ExampleTwo">
+    tools:context=".AdditionalActivity">
 
     <fragment
-        android:id="@+id/fragment_left_example_two"
+        android:id="@+id/fragment_result_example_two"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:name="com.example.task8_1.ListFragment"
-        tools:layout="@layout/fragment_list"
+        android:name="com.example.task8_1.ResultFragment"
+        tools:layout="@layout/fragment_result"
         android:layout_weight="1"/>
+
 
 </LinearLayout>
