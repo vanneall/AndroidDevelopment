@@ -47,6 +47,25 @@ public class TaskActivity extends AppCompatActivity {
                 fragmentManager.beginTransaction().add(R.id.container, Task8Fragment.class, null).commit();
                 break;
             }
+            case 8:
+            case 9: {
+                fragmentManager.beginTransaction().add(R.id.container, Task9Fragment.class, null).commit();
+                break;
+            }
+            case 10:
+            case 11:{
+                fragmentManager.beginTransaction().add(R.id.container, Task11Fragment.class, null).commit();
+                break;
+            }
+            case 12:{
+                fragmentManager.beginTransaction().add(R.id.container, Task13Fragment.class, null).commit();
+                break;
+            }
+            case 13:
+            case 14:{
+                fragmentManager.beginTransaction().add(R.id.container, Task14Fragment.class, null).commit();
+                break;
+            }
         }
 
 

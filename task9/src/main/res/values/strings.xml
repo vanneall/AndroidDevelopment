@@ -9,5 +9,16 @@
         <item>Эспрессо</item>
         <item>Латте</item>
         <item>Мокачино</item>
+        <item>Лунго</item>
+        <item>Ристретто</item>
+        <item>Флэт уайт</item>
+        <item>Кортадо</item>
+        <item>Мокко</item>
+        <item>Романо</item>
     </string-array>
+
+    <plurals name="coffees">
+        <item quantity="one">Выбран кофе: </item>
+        <item quantity="other">Выбраны кофейные напитки: </item>
+    </plurals>
 </resources>

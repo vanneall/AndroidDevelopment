@@ -63,5 +63,4 @@ public class CoffeeProAdapter extends ArrayAdapter<Coffee> {
 
         return view;
     }
-
 }

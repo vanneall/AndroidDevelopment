@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Task11Fragment"
+    android:orientation="vertical">
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Выбери кофе в auto"
+        android:completionThreshold="0"
+        android:completionHint="auto"/>
+
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/multiAutoCompleteTextView"
+        android:hint="Выбери кофе в multi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:completionThreshold="0"
+        android:completionHint="multi"/>
+
+    <TextView
+        android:id="@+id/textViewSelectedCoffeeTask11_12"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20dp"/>
+</LinearLayout>
