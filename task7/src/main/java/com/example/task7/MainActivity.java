@@ -14,7 +14,6 @@ import android.widget.EditText;
 public class MainActivity extends AppCompatActivity {
 
     UserInfo user;
-
     EditText editTextFName;
     EditText editTextLName;
     EditText editTextTName;

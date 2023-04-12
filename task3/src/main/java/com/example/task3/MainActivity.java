@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //Создание constraintLayout
-        /*
+
         ConstraintLayout constraintLayout = new ConstraintLayout(this);
         ConstraintLayout.LayoutParams layoutParams = new ConstraintLayout.LayoutParams(ConstraintLayout.LayoutParams.WRAP_CONTENT, ConstraintLayout.LayoutParams.WRAP_CONTENT);
         //layoutParams.leftToLeft = ConstraintLayout.LayoutParams.PARENT_ID;
@@ -37,9 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
         constraintLayout.addView(textView1);
         setContentView(constraintLayout);
-        */
 
-        setContentView(R.layout.activity_main);
     }
 
 
