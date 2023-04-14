@@ -28,6 +28,6 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
-        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textColor">@color/red</item>
     </style>
 </resources>
