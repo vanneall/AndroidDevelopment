@@ -10,4 +10,7 @@
     <color name="application_bar">#1A512E</color>
     <color name="text_color">#A9AC5D</color>
     <color name="background_color">#C6DC93</color>
+    <color name="red">#FF0000</color>
+    <color name="blue">#0000FF</color>
+    <color name="violet">#8B00FF</color>
 </resources>

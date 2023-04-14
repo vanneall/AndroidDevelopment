@@ -5,7 +5,15 @@
         android:id="@+id/call_toast"
         android:title="Вызвать toast"/>
     <item
-        android:id="@+id/edit_text"
-        android:title="Изменить textView"/>
-
+        android:id="@+id/additional_group"
+        android:title="Подгруппа 0">
+        <menu>
+            <item android:title="Первый пункт"/>
+            <item android:title="Второй пункт"/>
+        </menu>
+    </item>
+    <group android:checkableBehavior="none">
+        <item android:title="Черный"/>
+        <item android:title="Красный"/>
+    </group>
 </menu>

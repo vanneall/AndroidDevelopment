@@ -27,19 +27,35 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.main_menu, menu);
-        menu.add("Открыть подгруппу0");
-        menu.add("Открыть подгруппу1");
+        menu.add("Изменить textView");
+        menu.add(1,1,0,"Синий");
+        menu.add(1,2,1,"Фиолетовый");
         return true;
     }
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.call_toast:
+
+        switch (item.getTitle().toString()) {
+            case "Вызвать toast":
                 Toast.makeText(this, "Вызван toast", Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.edit_text:
-                ((TextView)findViewById(R.id.my_textView)).setText("Новый текст");
+            case "Подгруппа 0":
+                break;
+            case "Черный":
+                ((TextView)findViewById(R.id.my_textView)).setTextColor(getResources().getColor(R.color.black));
+                break;
+            case "Красный":
+                ((TextView)findViewById(R.id.my_textView)).setTextColor(getResources().getColor(R.color.red));
+                break;
+            case "Изменить textView":
+                ((TextView)findViewById(R.id.my_textView2)).setText("Новый текст");
+                break;
+            case "Синий":
+                ((TextView)findViewById(R.id.my_textView2)).setTextColor(getResources().getColor(R.color.blue));
+                break;
+            case "Фиолетовый":
+                ((TextView)findViewById(R.id.my_textView2)).setTextColor(getResources().getColor(R.color.violet));
                 break;
         }
         return true;
