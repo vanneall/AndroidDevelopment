@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Task2</string>
+    <string name="click">Кликни</string>
+    <string name="exit">Выход</string>
+    <string name="soccer_score">Ваш счет</string>
+    <string name="first_start">Первый запуск приложения</string>
 </resources>

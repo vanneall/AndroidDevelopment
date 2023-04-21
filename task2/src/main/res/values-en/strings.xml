@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Task2</string>
+    <string name="click">Click</string>
+    <string name="exit">Exit</string>
+    <string name="soccer_score">Your score</string>
+    <string name="first_start">It\'s first app start</string>
+</resources>
