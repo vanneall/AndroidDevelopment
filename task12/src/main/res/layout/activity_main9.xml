@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity9">
+
+    <Button
+        android:id="@+id/task10_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Кнопка 1"
+        app:layout_constraintEnd_toStartOf="@+id/task10_button9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="setButton1"/>
+
+    <Button
+        android:id="@+id/task10_button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="148dp"
+        android:text="Кнопка 2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="setButton2"/>
+
+    <Button
+        android:id="@+id/task10_button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Кнопка 3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/task10_button9"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="setButton3"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
