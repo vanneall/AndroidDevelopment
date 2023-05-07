@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/task1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Перейти к заданию 1"
+        android:onClick="task1"/>
+
+    <Button
+        android:id="@+id/task2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Перейти к заданию 2"
+        android:onClick="task2"/>
+
+    <Button
+        android:id="@+id/task4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Перейти к заданию 4"
+        android:onClick="task4"/>
+
+    <Button
+        android:id="@+id/task5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Перейти к заданию 5"
+        android:onClick="task5"/>
+
+    <Button
+        android:id="@+id/task6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Перейти к заданию 6"
+        android:onClick="task6"/>
+
+    <Button
+        android:id="@+id/task7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Перейти к заданию 7"
+        android:onClick="task7"/>
+
+    <Button
+        android:id="@+id/task8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Перейти к заданию 8"
+        android:onClick="task8"/>
+
+    <Button
+        android:id="@+id/task9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Перейти к заданию 9"
+        android:onClick="task9"/>
+
+    <Button
+        android:id="@+id/task10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Перейти к заданию 10"
+        android:onClick="task10"/>
+
+    <Button
+        android:id="@+id/task11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Перейти к заданию 11"
+        android:onClick="task11"/>
+
+    <Button
+        android:id="@+id/task12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Перейти к заданию 12"
+        android:onClick="task12"/>
+
+    <Button
+        android:id="@+id/task13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Перейти к заданию 13"
+        android:onClick="task13"/>
+
+</LinearLayout>

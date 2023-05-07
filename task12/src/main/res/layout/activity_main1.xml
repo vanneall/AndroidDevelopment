@@ -33,7 +33,8 @@
         android:text="Stop"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintLeft_toRightOf="@id/task1_buttonPause"/>
+        app:layout_constraintLeft_toRightOf="@id/task1_buttonPause"
+        android:onClick="task1_stop"/>
 
     <VideoView
         android:id="@+id/task1_videoView"
